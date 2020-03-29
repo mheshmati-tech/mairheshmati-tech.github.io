@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: rgb(255, 255, 255);
+    background-color: #ebe1ebee;
+}
+
+
+/* index */
+
+header {
+    background-color: #f1e2f1ee;
+}
+
+.name {
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 40px;
+    text-align: center;
+}
+
+.menue {
+    display: flex;
+    text-align: center;
+}
+
+.item {
+    width: 33%;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.intro {
+    width: auto;
+    margin: 300px 100px 200px 40px;
+}
+
+.why_coding {
+    margin: 100px 10px 200px 20px;
+}
+
+footer {
+    display: flex;
+    padding: 5px;
+    color: #1b1c27;
+    background-color: rgba(230, 224, 224, 0.5);
+    margin: 10px;
+}
+
+footer h3 {
+    width: 33%;
+    text-align: center;
+}
+
+
+/* about me page */
+
+img {
+    width: 40%;
+    height: auto;
+    flex-direction: row;
+}
+
+
+/* portfolio */
+
+figure figcaption {
+    font-size: 15px;
+}
